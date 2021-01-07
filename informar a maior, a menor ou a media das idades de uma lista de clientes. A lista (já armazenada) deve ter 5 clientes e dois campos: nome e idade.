@@ -1,0 +1,14 @@
+#bloco define a lista de nomes, lista com as idades e a variável média
+nomes = [ "jose","luiz","fernanda","rui","lucas"]
+idades =[3,4,7,10,20]
+media = sum(idades)/5
+
+#bloco que printa a lista e da a opção para escolha do maio, menor e a médias das idades das pessoas na lista.
+print ("Lista de nomes: " + str(nomes))
+calculo = int (input("Digite 1 para saber a maior idades, 2 para a menor e 3 para a média das idades: "))
+if (calculo == 1):
+print (max(idades))
+if (calculo == 2):
+print (min(idades))
+if (calculo == 3):
+print (media)
